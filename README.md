@@ -94,11 +94,11 @@ Each task is designed to handle retries and error handling to ensure robustness 
 Scalability:
 
 The batch processing system is scalable. The number of batches, processes, and threads can be adjusted based on the system’s capabilities and data volume.
-Benefits of Batch Processing
+### Benefits of Batch Processing
 Efficient Resource Utilization: By dividing the workload, the system can make better use of available resources, leading to improved performance.
 Reduced Latency: Parallel processing reduces the time taken to process large volumes of data, leading to faster data updates.
 Scalability: The system can be scaled horizontally by increasing the number of processes and threads, allowing it to handle larger datasets.
-##Project Structure
+## Project Structure
 ```
 
 📦 
@@ -124,9 +124,12 @@ Scalability: The system can be scaled horizontally by increasing the number of p
 ```
 
 ## Insights Calculation
-### View Count Trends: Analyzed using predefined benchmarks and GPT-3.5.
-### Top Keywords: Extracted from video titles, descriptions, and tags using NLTK.
-### Engagement Metrics: Calculated based on likes and comments.
+### View Count Trends: 
+Analyzed using predefined benchmarks and GPT-3.5.
+### Top Keywords: 
+Extracted from video titles, descriptions, and tags using NLTK.
+### Engagement Metrics: 
+Calculated based on likes and comments.
 ## Contributing
 Fork the repository.
 Create a new feature branch:
