@@ -14,15 +14,21 @@ Updates data and recalculates insights hourly, handling API rate limits and retr
 ### Insights Extraction: 
 Provides additional insights like the most engaging videos and top trending videos.
 ## Technologies Used
-Backend Framework: FastAPI
-Programming Language: Python
-Database: MySQL
-ORM: SQLAlchemy
-Task Scheduling: asyncio
-Parallel Processing: ProcessPoolExecutor
-Natural Language Processing: NLTK
-Machine Learning: OpenAI's GPT-3.5
-Getting Started
+- Backend Framework: FastAPI
+- Programming Language: Python
+
+- Database: MySQL
+
+- ORM: SQLAlchemy
+
+- Task Scheduling: asyncio
+
+- Parallel Processing: ProcessPoolExecutor
+
+- Natural Language Processing: NLTK
+
+- Machine Learning: OpenAI's GPT-3.5
+##Getting Started
 Prerequisites
 Python 3.8+
 MySQL 5.7+
@@ -31,7 +37,7 @@ Installation
 Clone the repository:
 
 ```
-git clone https://github.com/yourusername/yt-analytics-backend.git
+git clone https://github.com/anishdutta/youtube-data-trends-analysis.git
 cd yt-analytics-backend
 ```
 Create a virtual environment:
