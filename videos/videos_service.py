@@ -9,7 +9,7 @@ class Video_Service:
     API_KEY = os.getenv('YOUTUBE_API_KEY')
 
     def get_youtube_service(self):
-        return build('youtube', 'v3', developerKey='AIzaSyCbbTL226brFIo9q-IzTQ20UrQPFmDjU8o')
+        return build('youtube', 'v3', developerKey=API_KEY)
 
     def fetch_playlist_items(self,youtube, playlist_id):
         results = []
