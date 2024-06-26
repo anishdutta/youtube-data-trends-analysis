@@ -100,32 +100,27 @@ Reduced Latency: Parallel processing reduces the time taken to process large vol
 Scalability: The system can be scaled horizontally by increasing the number of processes and threads, allowing it to handle larger datasets.
 ##Project Structure
 ```
-yt-analytics-backend/
-│
-├── app/
-│   ├── main.py             # FastAPI application entry point
-│   ├── config.py           # Configuration settings
-│   ├── models.py           # SQLAlchemy models
-│   ├── crud.py             # Database CRUD operations
-│   ├── schemas.py          # Pydantic schemas
-│   ├── api/
-│   │   └── endpoints.py    # API endpoints
-│   ├── utils/
-│   │   ├── fetch_data.py   # Functions to fetch data from YouTube API
-│   │   ├── process_data.py # Functions to process fetched data
-│   │   ├── keywords.py     # Keyword extraction using NLTK
-│   │   └── trends.py       # Trend analysis using GPT-3.5
-│   └── db/
-│       └── session.py      # Database session management
-│
-├── pipeline/
-│   ├── run.py              # Data pipeline entry point
-│   ├── tasks.py            # Task definitions
-│   └── schedule.py         # Scheduling logic
-│
-├── migrations/             # Alembic migrations
-│
-└── README.md               # Project documentation
+
+📦 
+├─ .gitattributes
+├─ .gitignore
+├─ README.md
+├─ analytics
+│  └─ analytics_service.py
+├─ data_pipeline
+│  └─ data_pipeline.py
+├─ database
+│  ├─ crud.py
+│  └─ db.py
+├─ interfaces
+│  └─ interfaces.py
+├─ main.py
+├─ models
+│  └─ database.py
+├─ video-analytics.db
+└─ videos
+   └─ videos_service.py
+
 ```
 
 ## Insights Calculation
