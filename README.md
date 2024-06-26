@@ -81,13 +81,13 @@ Parallel Processing with ProcessPoolExecutor:
 
 Each batch is processed using a ProcessPoolExecutor, which allows the creation of multiple processes. In this setup, two processes are created at a time.
 Each process is responsible for processing a batch of 10 videos. This parallel processing approach helps to utilize multiple CPU cores, speeding up data processing.
-Thread Management:
+### Thread Management:
 
 Within each process, three worker threads are created to handle different aspects of data extraction and storage:
-Thread 1: Fetches video data from the YouTube API.
-Thread 2: Processes the data to extract insights such as trends and keywords.
-Thread 3: Stores the processed data in the MySQL database.
-###Task Execution:
+#### Thread 1: Fetches video data from the YouTube API.
+#### Thread 2: Processes the data to extract insights such as trends and keywords.
+#### Thread 3: Stores the processed data in the MySQL database.
+### Task Execution:
 
 Tasks are defined to handle specific functions like data fetching, processing, and storage.
 Each task is designed to handle retries and error handling to ensure robustness against API rate limits and network issues.
